@@ -13,3 +13,9 @@ def proporcion_aurea(n):
     return round(phi ** n / 5 ** 0.5)
 
 print(proporcion_aurea(10))  
+
+def numero_par(n):
+    return n % 2 == 0
+
+def numero_impar(n):
+    return n % 2 != 0
