@@ -19,3 +19,9 @@ def numero_par(n):
 
 def numero_impar(n):
     return n % 2 != 0
+
+def numero_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
