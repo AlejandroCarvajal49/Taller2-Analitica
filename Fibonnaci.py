@@ -27,3 +27,6 @@ def numero_fibonacci(n):
     return a
 
 print("Hola")
+
+x = 1
+x += 5
